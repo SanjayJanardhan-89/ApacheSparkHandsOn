@@ -18,6 +18,7 @@ findspark.init()
 findspark.find()
 
 import pyspark
+from pyspark.sql import SparkSession
 
 spark= SparkSession \
        .builder \
